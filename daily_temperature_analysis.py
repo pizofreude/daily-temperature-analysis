@@ -32,3 +32,9 @@ plt.savefig('src/plot/temperature_plot.png')
 
 # Deactivate the virtual environment
 os.system('deactivate')
+
+# Commit and push changes to GitHub
+os.system('git add temperature_plot.png')
+os.system('git commit -m "Update temperature plot"')
+os.system('git push origin main')
+
