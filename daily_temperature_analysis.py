@@ -31,7 +31,7 @@ os.makedirs('src/plot', exist_ok=True)
 plt.savefig('src/plot/temperature_plot.png')
 
 # Deactivate the virtual environment
-os.system('deactivate')
+os.system('venv\\Scripts\\deactivate')
 
 # Commit and push changes to GitHub
 os.system('git add temperature_plot.png')
