@@ -5,7 +5,10 @@
 import os
 import random
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
 
 # Generate random temperature data for a day
 # 24 hours
@@ -29,6 +32,9 @@ os.makedirs('src/plot', exist_ok=True)
 
 # Save the plot image in the new directory
 plt.savefig('src/plot/temperature_plot.png')
+
+# Clear the plot to release resources
+plt.clf()
 
 # Deactivate the virtual environment
 os.system('venv\\Scripts\\deactivate')
