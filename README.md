@@ -24,7 +24,7 @@ The Python script get the weather data from [Open Meteo](https://open-meteo.com/
 4. Watch as the temperature plot is updated and automatically pushed to this repository.
 
 ## 📄 License:
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## 🤝 Contributing:
 Contributions are welcome! Feel free to open issues or pull requests for any improvements, bug fixes, or additional features.
