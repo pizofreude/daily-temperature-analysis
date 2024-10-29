@@ -161,3 +161,7 @@ cython_debug/
 
 # Bash script
 *.bat
+
+# database
+temperatures.db
+
